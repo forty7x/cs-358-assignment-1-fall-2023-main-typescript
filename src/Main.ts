@@ -695,9 +695,13 @@ function countOrs(tree: LogicTree): number {
 // Delete the entire "throw" line below and replace it with your code.
 
 function removeTrues(tree: LogicTree): LogicTree {
-if(tree ==null)return null;
+switch(tree.tag){
 
-  throw new Error("unimplemented - this one is your job");
+  case "bool":
+    
+}
+
+  //throw new Error("unimplemented - this one is your job");
 }
 
 // **************
